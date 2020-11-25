@@ -2,10 +2,77 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portifólio Ivan Teotonio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Ivan Teotonio</h1>
+  
+    <main class="container">
+        <aside class="bio-container">
+           <h2>Ivan Teotonio</h2>
+           <img id="bio-img" src="img/ivan.jpg" alt="Ivan Teotonio">
+           <p>Olá, meu nome é Ivan Teotonio e sou <span class="highlight">Desenvolvedor FullStack</span></p>
+           <p id="welcome-text">Seja bem-vindo</p>
+           <ul id="social-container">
+               <li><a href="" target="blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+               <li><a href="" target="blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+               <li><a href="" target="blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+           <div class="email-container">
+               <ion-icon name="mail-outline"></ion-icon>
+               <a href="mailto:junioracioli@outlook.com.br">junioracioli@outlook.com.br</a>
+           </div>
+        </aside>
+        
+        <section class="about-container">
+            <h1 id="name">Ivan Teotonio</h1>
+            <p id="title"><span class="highlight">Desenvolvedor FullStack</span></p>
+            <p class="description">
+                Sou um desenvolvedor e web gosto de participar de projetos desde  <span class="highlight">
+                definição das regras de negócio e levantamento de requisitos</span> até o 
+                <span class="highlight">deploy da aplicação.</span>
+            </p>
+            <p class="description">
+                Atuo tanto no <span class="highlight">front</span> quanto no <pan class="highlight">back-end</pan>,e amo técnologia, estudo todos o dias para me tornar 
+                cada vez melhor e escrever código de qualidade
+            </p>
+            <a href="" class="btn-projects">
+                <ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span>
+            </a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conhecça as técnologias que domino</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-java-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-mongodb-plain colored"></i>
+                </div>
+
+               
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>
